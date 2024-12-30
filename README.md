@@ -1,9 +1,9 @@
-Motion Detection with OpenCV and Twilio WhatsApp Integration
+**Motion Detection with OpenCV and Twilio WhatsApp Integration**
 
 This project implements a real-time motion detection system using OpenCV in Python. It captures video input from a webcam, detects motion by analyzing frame differences, and provides notifications through audio alerts, visual cues, and WhatsApp messages.
 
-Features
-
+**Features
+**
 Real-Time Motion Detection: Detects motion in video frames using frame differences and thresholds.
 
 Audio Alert: Plays a sound when motion is detected.
