@@ -29,15 +29,15 @@ python motion_detection.py
 
 On motion detection:
 
-A red blinking overlay will appear on the video feed.
+  A red blinking overlay will appear on the video feed.
 
-An audio alert will play.
+  An audio alert will play.
 
-A WhatsApp notification will be sent.
+  A WhatsApp notification will be sent.
 
-A screenshot of the motion event will be saved in the motion_output directory.
+  A screenshot of the motion event will be saved in the motion_output directory.
 
-The event will be logged in motion_output/motion_detection.log.
+  The event will be logged in motion_output/motion_detection.log.
 
 Press ESC to exit the application.
 
