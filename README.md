@@ -25,7 +25,7 @@ Logging: Logs motion detection events, including pixel count and standard deviat
   
 Run the program:
 
-python motion_detection.py
+python motion_detection.ipynb
 
 On motion detection:
 
