@@ -1,3 +1,5 @@
+Requirements
+
 Python 3.x
 
 Required libraries:
@@ -6,19 +8,59 @@ opencv-python
 
 numpy
 
-playsound (or pygame as an alternative for sound playback)
+playsound
 
-threading (built-in)
+twilio
+
+Webcam for capturing video input.
 
 Installation
 
 Clone the repository:
 
-git clone https://github.com/vnayhegde/motion-detection-opencv.git
-cd motion-detection-opencv
+git clone https://github.com/yourusername/motion-detection-opencv-twilio.git
+cd motion-detection-opencv-twilio
 
 Install the required Python packages:
 
-pip install opencv-python numpy playsound pygame
+pip install opencv-python numpy playsound twilio
 
-Ensure you have a valid .wav sound file named motion_detected_sound.wav in the project directory for the audio alert.
+Place a valid .wav sound file named motion_detected_sound.wav in the project directory for the audio alert.
+
+Set up your Twilio account and configure the credentials in the script:
+
+Replace account_sid and auth_token with your Twilio credentials.
+
+Update the twilio_whatsapp_from and twilio_whatsapp_to variables with appropriate WhatsApp numbers.
+
+Configuration
+
+Motion Sensitivity:
+Modify the motion threshold:
+
+motion_threshold = 5000  # Adjust based on sensitivity needs
+
+Twilio Credentials:
+Update the account_sid, auth_token, twilio_whatsapp_from, and twilio_whatsapp_to variables with your Twilio account details.
+
+Troubleshooting
+
+Sound Playback Issues:
+
+Ensure the .wav file exists in the correct directory.
+
+Install alternative libraries like pygame if playsound doesn't work.
+
+Twilio Configuration Errors:
+
+Verify the account_sid and auth_token values.
+
+Ensure the twilio_whatsapp_from number is registered with Twilio.
+
+Low Sensitivity:
+
+Decrease the motion_threshold value.
+
+High Sensitivity:
+
+Increase the motion_threshold value.
