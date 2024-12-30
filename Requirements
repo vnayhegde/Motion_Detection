@@ -1,0 +1,24 @@
+Python 3.x
+
+Required libraries:
+
+opencv-python
+
+numpy
+
+playsound (or pygame as an alternative for sound playback)
+
+threading (built-in)
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/vnayhegde/motion-detection-opencv.git
+cd motion-detection-opencv
+
+Install the required Python packages:
+
+pip install opencv-python numpy playsound pygame
+
+Ensure you have a valid .wav sound file named motion_detected_sound.wav in the project directory for the audio alert.
